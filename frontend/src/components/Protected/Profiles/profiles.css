@@ -1,0 +1,14 @@
+.profile-container {
+     box-shadow: 0 0 10px #000000c2;
+}
+.profile-container .acc-details form .form-group input{
+     background-color: #3e3e3e;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     height: 40px;
+     width: 100%;
+     padding: 0 10px;
+}

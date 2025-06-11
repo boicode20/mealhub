@@ -1,0 +1,63 @@
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+}
+.loader::before,
+.loader::after {    
+  content:"";
+  grid-area: 1/1;
+  --c:no-repeat radial-gradient(farthest-side,#25b09b 92%,#0000);
+  background: 
+    var(--c) 50%  0, 
+    var(--c) 50%  100%, 
+    var(--c) 100% 50%, 
+    var(--c) 0    50%;
+  background-size: 12px 12px;
+  animation: l12 1s infinite;
+}
+.loader::before {
+  margin: 4px;
+  filter: hue-rotate(45deg);
+  background-size: 8px 8px;
+  animation-timing-function: linear
+}
+
+@keyframes l12 { 
+  100%{transform: rotate(.5turn)}
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    width: 8px;
+    height: 7px;
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar-thumb {
+    background: #3e9a56;
+    border-radius: 10px;
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.fav-list-item{
+  box-shadow: 0 1px 10px #000000c6;
+  border-radius: 10px;
+}
+
+.swal2-popup{
+  background-color: #272727 !important;
+}
+.swal2-popup .swal2-title{
+  color: #e2e2e2 !important;
+}
+.swal2-popup .swal2-confirm{
+  background-color: rgb(12, 179, 81) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,62 @@
+.meal-category-lists {
+    display: flex;
+    align-items: center;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+    width: 8px;
+    height: 7px;
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar-thumb {
+    background: #3e9a56;
+    border-radius: 10px;
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.meal-categ-render{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.swiper-pagination-bullet{
+    background-color: #ffff !important;
+}
+
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+
+
+/* Active category*/
+.active-categ {
+    background-color: #3e9a56;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid #20c04b;
+}
+
+.description {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.collapsed {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.expanded {
+  white-space: normal;
+}

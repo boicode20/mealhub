@@ -1,0 +1,30 @@
+.login-header-title{
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.login,.register{
+    background: linear-gradient(360deg, #ffffff, #e9e9e9);
+    /* background-color: #313131; */
+}
+
+.inner-container{
+    box-shadow: 0 0 20px #878787a7;
+    padding: 30px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* background-color: #808080; */
+}
+.inner-container .col1 form input{
+    color: #313131;
+    border: 1px solid #313131;
+    outline: #313131;
+
+}
+.inner-container .col1 form input::placeholder{
+    color: #313131;
+}
